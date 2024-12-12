@@ -1,0 +1,67 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body {
+    margin: 0px;
+}
+
+.player {
+    height: 250px;
+    margin-top: 330px;
+    position: absolute;
+}
+
+.score {
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.block {
+    width: 75px;
+    height: 105px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    position: absolute;
+    margin-top: 450px;
+
+}
+
+.gameOver {
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    visibility: hidden;
+}
+
+.btn {
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+
+    font-size: 24px;
+    font-family: "Arial";
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
